@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.10)  20 APR 2020 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.10)  20 APR 2020 01:14
 entering extended mode
 **./the_temp_document.tex
 (the_temp_document.tex
@@ -148,6 +148,268 @@ Package tocbasic Info: omitting babel extension for `lot'
 Class scrbook Info: Redefining `\numberline' on input line 7040.
 \bibindent=\dimen134
 )
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
+sty"
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexc
+mds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwar
+err.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.
+sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
+sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count177
+)
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoption
+s.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetk
+eys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count178
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count179
+\c@listtotal=\count180
+\c@listcount=\count181
+\c@liststart=\count182
+\c@liststop=\count183
+\c@citecount=\count184
+\c@citetotal=\count185
+\c@multicitecount=\count186
+\c@multicitetotal=\count187
+\c@instcount=\count188
+\c@maxnames=\count189
+\c@minnames=\count190
+\c@maxitems=\count191
+\c@minitems=\count192
+\c@citecounter=\count193
+\c@maxcitecounter=\count194
+\c@savedcitecounter=\count195
+\c@uniquelist=\count196
+\c@uniquename=\count197
+\c@refsection=\count198
+\c@refsegment=\count199
+\c@maxextratitle=\count266
+\c@maxextratitleyear=\count267
+\c@maxextraname=\count268
+\c@maxextradate=\count269
+\c@maxextraalpha=\count270
+\c@abbrvpenalty=\count271
+\c@highnamepenalty=\count272
+\c@lownamepenalty=\count273
+\c@maxparens=\count274
+\c@parenlevel=\count275
+\blx@tempcnta=\count276
+\blx@tempcntb=\count277
+\blx@tempcntc=\count278
+\blx@maxsection=\count279
+\blx@maxsegment@0=\count280
+\blx@notetype=\count281
+\blx@parenlevel@text=\count282
+\blx@parenlevel@foot=\count283
+\blx@sectionciteorder@0=\count284
+\blx@entrysetcounter=\count285
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language83
+\c@mincomprange=\count286
+\c@maxcomprange=\count287
+\c@mincompwidth=\count288
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.de
+f"
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count289
+\c@savedafterword=\count290
+\c@annotator=\count291
+\c@savedannotator=\count292
+\c@author=\count293
+\c@savedauthor=\count294
+\c@bookauthor=\count295
+\c@savedbookauthor=\count296
+\c@commentator=\count297
+\c@savedcommentator=\count298
+\c@editor=\count299
+\c@savededitor=\count300
+\c@editora=\count301
+\c@savededitora=\count302
+\c@editorb=\count303
+\c@savededitorb=\count304
+\c@editorc=\count305
+\c@savededitorc=\count306
+\c@foreword=\count307
+\c@savedforeword=\count308
+\c@holder=\count309
+\c@savedholder=\count310
+\c@introduction=\count311
+\c@savedintroduction=\count312
+\c@namea=\count313
+\c@savednamea=\count314
+\c@nameb=\count315
+\c@savednameb=\count316
+\c@namec=\count317
+\c@savednamec=\count318
+\c@translator=\count319
+\c@savedtranslator=\count320
+\c@shortauthor=\count321
+\c@savedshortauthor=\count322
+\c@shorteditor=\count323
+\c@savedshorteditor=\count324
+\c@labelname=\count325
+\c@savedlabelname=\count326
+\c@institution=\count327
+\c@savedinstitution=\count328
+\c@lista=\count329
+\c@savedlista=\count330
+\c@listb=\count331
+\c@savedlistb=\count332
+\c@listc=\count333
+\c@savedlistc=\count334
+\c@listd=\count335
+\c@savedlistd=\count336
+\c@liste=\count337
+\c@savedliste=\count338
+\c@listf=\count339
+\c@savedlistf=\count340
+\c@location=\count341
+\c@savedlocation=\count342
+\c@organization=\count343
+\c@savedorganization=\count344
+\c@origlocation=\count345
+\c@savedoriglocation=\count346
+\c@origpublisher=\count347
+\c@savedorigpublisher=\count348
+\c@publisher=\count349
+\c@savedpublisher=\count350
+\c@language=\count351
+\c@savedlanguage=\count352
+\c@origlanguage=\count353
+\c@savedoriglanguage=\count354
+\c@pageref=\count355
+\c@savedpageref=\count356
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compa
+t.def"
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
+def"
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count357
+\c@textcitetotal=\count358
+\c@textcitemaxnames=\count359
+\c@biburlbigbreakpenalty=\count360
+\c@biburlbreakpenalty=\count361
+\c@biburlnumpenalty=\count362
+\c@biburlucpenalty=\count363
+\c@biburllcpenalty=\count364
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count365
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numer
+ic.bbx"
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stand
+ard.bbx"
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count366
+\c@bbx:relatedtotal=\count367
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numer
+ic.cbx"
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
+cfg"
+File: biblatex.cfg 
+))
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
 Package: babel 2020/03/22 3.42 The Babel package
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
@@ -173,13 +435,13 @@ aphy)
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2020/03/22 3.42 Babel common definitions
-\babel@savecnt=\count177
+\babel@savecnt=\count368
 \U@D=\dimen135
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
 ef")
-\bbl@readstream=\read2
-\bbl@dirlevel=\count178
+\bbl@readstream=\read3
+\bbl@dirlevel=\count369
 )
 Package babel Info: Making " an active character on input line 121.
 ))
@@ -219,13 +481,10 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty
 "
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty
-"
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-\Gm@cnth=\count179
-\Gm@cntv=\count180
-\c@Gm@tempcnt=\count181
+)
+\Gm@cnth=\count370
+\Gm@cntv=\count371
+\c@Gm@tempcnt=\count372
 \Gm@bindingoffset=\dimen136
 \Gm@wd@mp=\dimen137
 \Gm@odd@mp=\dimen138
@@ -251,42 +510,12 @@ Class scrbook Warning: Usage of package `parskip' together
 y"
 Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
 
-("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoption
-s.sty"
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-
-("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.
-sty"
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetk
-eys.sty"
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
-sty"
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count182
-)
 Couldn't patch \@startsection
 )
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
 sty"
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexc
-mds.sty"
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwar
-err.sty"
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\kvd
 efinekeys.sty"
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -308,8 +537,8 @@ y"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen144
-\Hy@linkcounter=\count183
-\Hy@pagecounter=\count184
+\Hy@linkcounter=\count373
+\Hy@pagecounter=\count374
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
 f"
@@ -325,7 +554,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count185
+\Hy@SavedSpaceFactor=\count375
 Package hyperref Info: Option `draft' set `false' on input line 4421.
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
@@ -334,11 +563,7 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count186
- ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
-\Urlmuskip=\muskip16
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count376
 LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen145
 
@@ -351,7 +576,7 @@ tcalc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count187
+\Fld@menulength=\count377
 \Field@Width=\dimen146
 \Fld@charsize=\dimen147
 Package hyperref Info: Hyper figures OFF on input line 6430.
@@ -368,9 +593,9 @@ LaTeX Info: Redefining \pageref on input line 6504.
 i.sty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count188
-\c@Item=\count189
-\c@Hfootnote=\count190
+\Hy@abspage=\count378
+\c@Item=\count379
+\c@Hfootnote=\count380
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -382,8 +607,8 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 d.sty"
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count191
-\c@bookmark@seq@number=\count192
+\Fld@listcount=\count381
+\c@bookmark@seq@number=\count382
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\rer
 unfilecheck.sty"
@@ -396,7 +621,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip64
+\Hy@SectionHShift=\skip86
 )
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/libertine\libertin
 e.sty"
@@ -422,7 +647,7 @@ tex"
 \XKV@toks=\toks19
 \XKV@tempa@toks=\toks20
 )
-\XKV@depth=\count193
+\XKV@depth=\count383
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
@@ -466,11 +691,11 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 e.sty"
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
 \MT@toks=\toks21
-\MT@count=\count194
+\MT@count=\count384
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen148
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count195
+\MT@listname@count=\count385
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
 e-pdftex.def"
@@ -478,7 +703,7 @@ File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip65
+\MT@outer@space=\skip87
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -489,14 +714,11 @@ File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/nomencl\nomencl.st
 y"
 Package: nomencl 2020/03/01 v5.4 Nomenclature package
- ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 Package tocbasic Info: setting babel extension for `nlo' on input line 179.
 Package tocbasic Info: setting babel extension for `nls' on input line 180.
 \nomlabelwidth=\dimen149
 \nom@tempdim=\dimen150
-\nomitemsep=\skip66
+\nomitemsep=\skip88
 )
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
 sty"
@@ -507,24 +729,24 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
 sty"
-\lst@mode=\count196
+\lst@mode=\count386
 \lst@gtempboxa=\box47
 \lst@token=\toks22
-\lst@length=\count197
+\lst@length=\count387
 \lst@currlwidth=\dimen151
-\lst@column=\count198
-\lst@pos=\count199
+\lst@column=\count388
+\lst@pos=\count389
 \lst@lostspace=\dimen152
 \lst@width=\dimen153
-\lst@newlines=\count266
-\lst@lineno=\count267
+\lst@newlines=\count390
+\lst@lineno=\count391
 \lst@maxwidth=\dimen154
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
 ty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count268
-\lst@skipnumbers=\count269
+\c@lstnumber=\count392
+\lst@skipnumbers=\count393
 \lst@framebox=\box48
 )
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
@@ -535,10 +757,45 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip67
-\bibsep=\skip68
+
+! LaTeX Error: Command \bibhang already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.637 \newlength{\bibhang}
+                          
+? 
+\bibsep=\skip89
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count270
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \Citeauthor on input line 731.
+LaTeX Info: Redefining \citeyear on input line 735.
+
+! LaTeX Error: Command \NAT@parse already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.773 }
+       %
+? 
+
+! LaTeX Error: Command \citename already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1028 \newcommand\citename{}
+                             
+? 
+\c@NAT@ctr=\count394
 )
 
 ! LaTeX Error: Option clash for package hyperref.
@@ -557,7 +814,7 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@cmds=\toks25
 \SOUL@buffer=\toks26
 \SOUL@token=\toks27
-\SOUL@spaceskip=\skip69
+\SOUL@spaceskip=\skip90
 \SOUL@ttwidth=\dimen155
 \SOUL@uldp=\dimen156
 \SOUL@ulht=\dimen157
@@ -594,16 +851,16 @@ Package: expl3 2020-04-06 L3 programming layer (loader)
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
 d-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count271
+\l__kernel_color_stack_int=\count395
 \l__pdf_internal_box=\box49
 ))
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
 xparse.sty"
 Package: xparse 2020-03-06 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count272
-\g__xparse_grabber_int=\count273
-\l__xparse_m_args_int=\count274
-\l__xparse_v_nesting_int=\count275
+\l__xparse_current_arg_int=\count396
+\g__xparse_grabber_int=\count397
+\l__xparse_m_args_int=\count398
+\l__xparse_v_nesting_int=\count399
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -630,18 +887,35 @@ Class scrbook Warning: Usage of package `fancyhdr' together
 sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip70
-\f@nch@O@elh=\skip71
-\f@nch@O@erh=\skip72
-\f@nch@O@olh=\skip73
-\f@nch@O@orh=\skip74
-\f@nch@O@elf=\skip75
-\f@nch@O@erf=\skip76
-\f@nch@O@olf=\skip77
-\f@nch@O@orf=\skip78
+\f@nch@headwidth=\skip91
+\f@nch@O@elh=\skip92
+\f@nch@O@erh=\skip93
+\f@nch@O@olh=\skip94
+\f@nch@O@orh=\skip95
+\f@nch@O@elf=\skip96
+\f@nch@O@erf=\skip97
+\f@nch@O@olf=\skip98
+\f@nch@O@orf=\skip99
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 40.
- (the_temp_document.aux)
+
+
+! Package biblatex Error: Incompatible package 'natbib'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \begin{document}
+                     
+? 
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count400
+\@quotereset=\count401
+(the_temp_document.aux)
 \openout1 = `the_temp_document.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -673,7 +947,44 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 Package scrbase Info: activating english \contentsname on input line 43.
 Package scrbase Info: activating english \listfigurename on input line 43.
 Package scrbase Info: activating english \listtablename on input line 43.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
 
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\engli
+sh.lbx"
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\ngerm
+an.lbx"
+File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\germa
+n.lbx"
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\germa
+n.lbx"
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `the_temp_document.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'the_temp_document.bbl' not found.
+
+No file the_temp_document.bbl.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -733,14 +1044,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count276
+\c@section@level=\count402
 )
 LaTeX Info: Redefining \ref on input line 43.
 LaTeX Info: Redefining \pageref on input line 43.
 LaTeX Info: Redefining \nameref on input line 43.
  (the_temp_document.out) (the_temp_document.out)
-\@outlinefile=\write3
-\openout3 = `the_temp_document.out'.
+\@outlinefile=\write4
+\openout4 = `the_temp_document.out'.
 
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
@@ -761,10 +1072,10 @@ File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 168.
-\BKM@id=\count277
+\BKM@id=\count403
 ))
-\c@mv@tabular=\count278
-\c@mv@boldtabular=\count279
+\c@mv@tabular=\count404
+\c@mv@boldtabular=\count405
 LaTeX Info: Redefining \microtypecontext on input line 43.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -780,21 +1091,21 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@lstlisting=\count280
+\c@lstlisting=\count406
 
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
+\scratchcounter=\count407
 \scratchdimen=\dimen160
 \scratchbox=\box51
-\nofMPsegments=\count282
-\nofMParguments=\count283
+\nofMPsegments=\count408
+\nofMParguments=\count409
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count284
+\MPscratchCnt=\count410
 \MPscratchDim=\dimen161
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
+\MPnumerator=\count411
+\makeMPintoPDFobject=\count412
 \everyMPtoPDFconversion=\toks29
 )
 ("C:\Users\Admin\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
@@ -848,16 +1159,36 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 6.
 )
-\tf@toc=\write4
-\openout4 = `the_temp_document.toc'.
+\tf@toc=\write5
+\openout5 = `the_temp_document.toc'.
 
  [2
+
+
+]
+Package tocbasic Info: character protrusion at lof deactivated on input line 51
+.
+ (the_temp_document.lof)
+\tf@lof=\write6
+\openout6 = `the_temp_document.lof'.
+
+ [3
+
+
+]
+Package tocbasic Info: character protrusion at lot deactivated on input line 52
+.
+ (the_temp_document.lot)
+\tf@lot=\write7
+\openout7 = `the_temp_document.lot'.
+
+ [4
 
 
 ]
@@ -878,7 +1209,7 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface .
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 54.
+(Font)              scaled to size 17.28pt on input line 55.
 [1
 
 
@@ -887,9 +1218,9 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sl' in size <12> not a
 vailable
 (Font)              Font shape `T1/LinuxLibertineT-TLF/m/it' tried instead on i
-nput line 68.
+nput line 69.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 68.
+(Font)              scaled to size 12.0pt on input line 69.
  [2]
 chapter 2.
 [3
@@ -898,32 +1229,38 @@ chapter 2.
 ]
 chapter 3.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 73.
+(Font)              scaled to size 14.4pt on input line 74.
 [4
 
 
 ]
 chapter 4.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
+
+LaTeX Warning: Empty bibliography on input line 81.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
 [5
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (the_temp_document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `the_temp_document.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package logreq Info: Writing requests to 'the_temp_document.run.xml'.
+\openout1 = `the_temp_document.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 15524 strings out of 480892
- 279754 string characters out of 2897992
- 853420 words of memory out of 3000000
- 31042 multiletter control sequences out of 15000+200000
+ 21895 strings out of 480892
+ 407027 string characters out of 2897992
+ 1310946 words of memory out of 3000000
+ 37354 multiletter control sequences out of 15000+200000
  594675 words of font info for 97 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,11n,72p,10149b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 1143 hyphenation exceptions out of 8191
+ 55i,11n,73p,10150b,2279s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/libertine/l
 btn_7grukw.enc}{C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
 s/libertine/lbtn_25tcsq.enc}{C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/f
@@ -934,9 +1271,9 @@ rs/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/libertine/LinLibe
 rtineT.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /libertine/LinLibertineTB.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on the_temp_document.pdf (7 pages, 303074 bytes).
+Output written on the_temp_document.pdf (9 pages, 304739 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  19030 words of extra memory for PDF output out of 20736 (max. 10000000)
 
