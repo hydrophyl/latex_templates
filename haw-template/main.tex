@@ -1,0 +1,160 @@
+\documentclass[draft=false
+              ,paper=a4
+              ,twoside=false
+              ,fontsize=12pt
+              ,headsepline
+              ,BCOR10mm
+              ,DIV11
+              ]{scrbook}
+\usepackage[backend=biber,sorting=nty]{biblatex}
+\addbibresource{citation.bib}
+\usepackage[ngerman,english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=2.5cm,left=3cm,right=2cm,bottom=2cm]{geometry}
+\usepackage[parfill]{parskip} 
+\usepackage{hyperref}
+\usepackage{glossaries} %% to do abbreviations
+%% From HAW-Template
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{graphicx} %% Important for including pictures
+\usepackage{fancyhdr} %% for aligning header/footer
+\pagestyle{fancy}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black, 
+  filecolor=cyan,
+  urlcolor=magenta,
+  citecolor=red,
+}
+\linespread{1.25} %% Paragraphs 1.5 lineheight
+\setlength{\parskip}{3pt}
+%% \setmainfont{Arial}
+\usepackage{uarial}
+\renewcommand{\familydefault}{\sfdefault}
+
+%% to set size of headings as normalsize 12pt
+\usepackage{sectsty}
+\chapterfont{\normalsize}
+\sectionfont{\normalsize}
+\subsectionfont{\normalsize}
+
+%% to change space of headings to 0
+\usepackage{titlesec}
+\titlespacing*{\section}
+{0pt}{0ex}{0ex}
+\titlespacing*{\subsection}
+{0pt}{0ex}{0ex}
+\titlespacing*{\subsubsection}
+{0pt}{0ex}{0ex}
+\titleformat{\chapter}
+  {\normalfont\normalsize\bfseries}{\thechapter}{1em}{}
+\titlespacing*{\chapter}
+{0pt}{0ex}{0ex}
+
+%% Change title of \tableofcontents
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {I. OUTLINE}%
+  \renewcommand{\listfigurename}%
+  	{II. List of figures}
+  \renewcommand{\listtablename}%
+	{III. List of tables}
+  \renewcommand{\refname}%
+  	{V. List of references}
+}
+
+%% Generate the glossaries
+\makeglossaries
+\begin{document}
+\newglossaryentry{COVID}{name=COVID-19, description={Coronavirus disease 2019}}
+\newglossaryentry{who}{name=WHO, description={Word Health Organization}}
+\newglossaryentry{unwto}{name=UNWTO, description={World Tourism Organization}}
+\newglossaryentry{iata}{name=IATA, description={International Air Transport Association}}
+
+\frontmatter
+
+%% output title page
+\input{titlepage}
+
+\input{abstractpage}
+\tableofcontents
+\addcontentsline{toc}{chapter}{I. OUTLINE}
+\listoffigures
+\addcontentsline{toc}{chapter}{II. List of figures}
+\listoftables
+\addcontentsline{toc}{chapter}{III. List of tables}
+
+%% Uncomment these lines to input manually list of abbreviations as IV from external file
+%% \newpage
+%% \input{abbreviationpage}
+%% \addcontentsline{toc}{chapter}{IV. List of abbreviations}
+\mainmatter
+\chapter{Introduction}
+\vspace{6pt}
+\section{Research questions}
+\vspace{6pt}
+
+Fusce sed finibus diam. Duis laoreet a ante at bibendum. Maecenas consequat dignissim maximus. Praesent porttitor cursus augue, ut blandit sem. Nunc malesuada id eros at imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse massa purus, pretium eu ultrices nec, mollis vitae risus. Proin et sem tempor, \gls{who} aliquam mauris lacinia, pretium justo. \gls{unwto} quisque non tortor eget libero congue maximus. Praesent in vestibulum felis. Nam dolor ex, blandit vel metus vel, convallis ullamcorper eros.
+
+Nullam ut eros at nibh suscipit suscipit a at arcu. Duis pretium dignissim velit ac mollis. Donec tincidunt neque at mi egestas, a lacinia ex aliquet. Vivamus in porta ipsum. Integer cursus lacus eget ligula tempus vulputate porttitor ac lectus. Suspendisse vitae \gls{who} sollicitudin risus, quis pharetra est. Nullam laoreet scelerisque neque vitae tristique. Nam consectetur lectus pulvinar orci accumsan rutrum. Phasellus sollicitudin pulvinar mi, tristique varius nisi iaculis id. Morbi in erat cursus, sagittis eros ut, iaculis augue. Aliquam erat volutpat. Fusce luctus sed dui in facilisis. Nulla congue justo et dui semper, in sagittis quam condimentum. Sed nec mauris non augue vulputate mollis sed congue massa.
+
+\vspace{12pt}
+\section{Course of investigation}
+\vspace{6pt}
+
+Quisque ornare mi ac mauris auctor placerat. \gls{COVID} nunc in risus ac urna elementum dapibus. Maecenas dignissim diam in tellus imperdiet hendrerit. In hac habitasse platea dictumst. Maecenas non sagittis purus. Nullam vulputate lectus dictum, ultricies tortor at, tempor mauris. Phasellus libero est, pharetra ut nulla eu, vestibulum venenatis nulla. Vivamus tristique orci et ante dictum, a placerat felis bibendum.
+
+Suspendisse nec aliquam metus. \gls{iata} maecenas varius imperdiet metus, ac finibus purus fringilla sed. Nullam et lacus lacus. Suspendisse ac finibus enim, eu convallis felis. Pellentesque vehicula dolor eleifend neque luctus, et lacinia justo pretium. Sed auctor vitae lorem in vehicula. Aliquam ac eleifend magna, auctor viverra mauris. Donec a quam arcu. Sed sagittis quam eros, et tempor tellus condimentum ac. Mauris fringilla euismod dui non eleifend. Curabitur dictum justo ac varius blandit. Aenean \gls{COVID} pulvinar nibh sed risus porta maximus.
+
+\vspace{12pt}
+\chapter{Influences of coronavirus pandemic on tourism industry}
+\vspace{6pt}
+\section{Economics crisis in tourism industry}
+\vspace{6pt}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales enim id magna consectetur, eu tincidunt nisl tempus. Donec ac neque vitae odio suscipit tristique. Donec consectetur, dui ut tincidunt efficitur, erat velit ornare tellus, id pulvinar tellus tellus quis dolor. Maecenas mi nulla, ultricies eget accumsan posuere, egestas nec urna. Pellentesque massa nunc, sodales sit amet dictum ac, dignissim et lorem. Morbi accumsan, nisi non fringilla ultricies, dolor lorem ultricies augue, sit amet dictum massa lectus nec sem. Sed at nisi ut erat imperdiet sagittis nec quis est. Suspendisse ultricies ut ipsum ac suscipit. Vivamus dignissim elit est, in dictum magna euismod et. Aliquam varius blandit elementum. Maecenas at dapibus justo. Suspendisse potenti. Donec finibus turpis nulla, nec pellentesque magna consequat sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed condimentum in libero vel congue. Aliquam lacinia orci ac diam egestas, id fringilla elit convallis \cite{lorem}.
+
+\vspace{12pt}
+\chapter{Dummy chapter}
+\vspace{6pt}
+\section{Implemented crisis communication strategies}
+\vspace{6pt}
+\subsection{Collaboration with worldwide organisations}
+\vspace{6pt}
+
+\vspace{12pt}
+\subsection{Crisis communication tools and channels}
+\vspace{6pt}
+
+\vspace{12pt}
+\section{The impacts of crisis communication strategies on the spread of coronavirus pandemic}
+\vspace{6pt}
+
+\vspace{12pt}
+\chapter{Conclusion}
+\vspace{6pt}
+\section{Summary}
+\vspace{6pt}
+
+\vspace{12pt}
+\section{Critical acclaim}
+\vspace{6pt}
+
+\vspace{12pt}
+\section{Discussion}
+\vspace{6pt}
+
+\printbibliography[title={V. List of references}]
+%% Umcomment these 4 lines to input \bibliography manually from other file
+%% \newpage
+%% \newpage
+%% \input{bibliography}
+\addcontentsline{toc}{chapter}{V. List of references}
+\printglossary[type=\acronymtype,title={VI. List of Abbreviations}]
+\addcontentsline{toc}{chapter}{VI. List of abbreviations}
+\newpage
+\input{declaration}
+\addcontentsline{toc}{chapter}{VII. Declaration of originality}
+\end{document}
