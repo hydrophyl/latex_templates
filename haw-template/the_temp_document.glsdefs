@@ -1,0 +1,120 @@
+\ifglsentryexists{COVID}{}%
+{%
+\gls@defglossaryentry{COVID}%
+{%
+name={COVID-19},%
+sort={COVID-19},%
+type={main},%
+first={COVID-19},%
+firstplural={COVID-19s},%
+text={COVID-19},%
+plural={COVID-19s},%
+description={Coronavirus disease 2019},%
+descriptionplural={Coronavirus disease 2019},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{who}{}%
+{%
+\gls@defglossaryentry{who}%
+{%
+name={WHO},%
+sort={WHO},%
+type={main},%
+first={WHO},%
+firstplural={WHOs},%
+text={WHO},%
+plural={WHOs},%
+description={Word Health Organization},%
+descriptionplural={Word Health Organization},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{unwto}{}%
+{%
+\gls@defglossaryentry{unwto}%
+{%
+name={UNWTO},%
+sort={UNWTO},%
+type={main},%
+first={UNWTO},%
+firstplural={UNWTOs},%
+text={UNWTO},%
+plural={UNWTOs},%
+description={World Tourism Organization},%
+descriptionplural={World Tourism Organization},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{iata}{}%
+{%
+\gls@defglossaryentry{iata}%
+{%
+name={IATA},%
+sort={IATA},%
+type={main},%
+first={IATA},%
+firstplural={IATAs},%
+text={IATA},%
+plural={IATAs},%
+description={International Air Transport Association},%
+descriptionplural={International Air Transport Association},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
