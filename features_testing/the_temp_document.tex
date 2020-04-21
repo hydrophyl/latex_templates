@@ -6,29 +6,19 @@
               ,BCOR10mm
               ,DIV11
               ]{scrbook}
-\usepackage[backend=biber]{biblatex}
+\usepackage[backend=biber,sorting=nty]{biblatex}
 \addbibresource{citation.bib}
 \usepackage[ngerman,english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[latin1]{inputenc}
 \usepackage[top=2.5cm,left=3cm,right=2cm,bottom=2cm]{geometry}
 \usepackage[parfill]{parskip} 
 \usepackage{hyperref}
+\usepackage{glossaries} %% to do abbreviations
 %% From HAW-Template
-\usepackage{libertine}
-\usepackage{pifont}
-\usepackage{microtype}
-\usepackage{textcomp}
-\usepackage[german,refpage]{nomencl}
 \usepackage{setspace}
-\usepackage{makeidx}
 \usepackage{listings}
-\usepackage{natbib}
-\usepackage[ngerman,colorlinks=true]{hyperref}
-\usepackage{soul}
 \usepackage{graphicx} %% Important for including pictures
-\usepackage{lipsum} %% for sample text
 \usepackage{fancyhdr} %% for aligning header/footer
 \pagestyle{fancy}
 \hypersetup{
@@ -43,11 +33,13 @@
 %% \setmainfont{Arial}
 \usepackage{uarial}
 \renewcommand{\familydefault}{\sfdefault}
+
 %% to set size of headings as normalsize 12pt
 \usepackage{sectsty}
 \chapterfont{\normalsize}
 \sectionfont{\normalsize}
 \subsectionfont{\normalsize}
+
 %% to change space of headings to 0
 \usepackage{titlesec}
 \titlespacing*{\section}
@@ -60,39 +52,73 @@
   {\normalfont\normalsize\bfseries}{\thechapter}{1em}{}
 \titlespacing*{\chapter}
 {0pt}{0ex}{0ex}
+
+%% Change title of \tableofcontents
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {I. OUTLINE}%
+  \renewcommand{\listfigurename}%
+  	{II. List of figures}
+  \renewcommand{\listtablename}%
+	{III. List of tables}
+  \renewcommand{\refname}%
+  	{V. List of references}
+}
+
+%% Generate the glossaries
+\makeglossaries
 \begin{document}
+\newglossaryentry{COVID}{name=COVID-19, description={Coronavirus disease 2019}}
+\newglossaryentry{who}{name=WHO, description={Word Health Organization}}
+\newglossaryentry{unwto}{name=UNWTO, description={World Tourism Organization}}
+\newglossaryentry{iata}{name=IATA, description={International Air Transport Association}}
+
 \frontmatter
 
 %% output title page
 \input{titlepage}
 
+\input{abstractpage}
 \tableofcontents
+\addcontentsline{toc}{chapter}{I. OUTLINE}
 \listoffigures
+\addcontentsline{toc}{chapter}{II. List of figures}
 \listoftables
+\addcontentsline{toc}{chapter}{III. List of tables}
+\newpage
+\input{abbreviationpage}
+\addcontentsline{toc}{chapter}{IV. List of abbreviations}
+%% \printglossaries
 \mainmatter
-\chapter{\phantom{o}Introduction}
+\chapter{Introduction}
 \vspace{6pt}
 \section{Research questions}
 \vspace{6pt}
-Since the end of 2019, the world has had faced with the biggest threat to the maintenance of international peace, security and economic stability. The coronavirus (also being called Covid-19) pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The outbreak was identified in Wuhan, China in December 2019 and officially recognized as a pandemic on 11 March 2020. On 12 April 2020, more than 1.84 million cases of Covid-19 have been reported in 210 countries and territories worldwide, more than 113 000 deaths and more than 421 000 people have recovered. This coronavirus spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. 
 
-To hinder the fast contagiousness of this coronavirus, many countries worldwide have responded by implementing travel restrictions, quarantines, curfews, workplace hazard controls and facility closures. This coronavirus outbreak has brought considerable human suffering and economic disruption, including the direct disruption to global supply chains, weaker final demand for imported goods and services, and the wider regional declines in international tourism and business travel. 
+Since the end of 2019, the world has faced with the biggest threat to the maintenance of international peace, security and economic stability, whose name is  The coronavirus (also being called Covid-19) pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The outbreak was identified in Wuhan, China in December 2019 and officially recognized as a pandemic on 11 March 2020. On 12 April 2020, more than 1.84 million cases of Covid-19 have been reported in 210 countries and territories worldwide, more than 113 000 deaths and more than 421 000 people have recovered. This coronavirus spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. 
 
-Because of the unpredictable goings-on of this outbreak and its negative effects on tourism sector, the international as well as national tourist organisations must have urgent response in time in order to mitigate this global crisis. Consequently, having crisis communication plans and strategies is undoubtedly necessary. Nonetheless, tourist organisations cannot implement the appropriated crisis communication strategies and reactions against the coronavirus without collaborating with other international organisations and national governments around the world.
+To counteract the fast contagiousness of this coronavirus, many countries worldwide have responded by implementing travel restrictions, quarantines, curfews, workplace hazard controls and facility closures. This coronavirus outbreak has brought considerable human suffering and economic disruption, including the direct disruption to global supply chains, weaker final demand for imported goods and services, and the regional declines in international tourism and business travel. 
 
-This term paper will represent the influences of Covid-19 pandemic on tourism industry. The focus will be on analysing the crisis communication strategies and tools of international organisations, especially international tourist organisations in term of mitigating the severe global coronavirus crisis (and pointing out differentiations of crisis communication plans in Vietnam, one of the best countries avoiding and precluding the spread of coronavirus and the United States of America, the country has the world’s highest number of deaths and cases.)
+Because of the unpredictable goings-on of this outbreak and its negative effects on tourism sector, the international as well as national tourist organisations must have urgent response in time in order to mitigate this global crisis. Consequently, having  crisis communication plans and strategies is undoubtedly necessary. Nonetheless, tourist organisations cannot implement the appropriated crisis communication strategies and reactions against the coronavirus without collaborating with other international organisations and national governments around the world.
+
+This term paper will represent the influences of Covid-19 pandemic on tourism industry. The focus will be on analysing the crisis communication strategies and responses of international organisations, especially international tourist organisations and their accomplishments  in term of mitigating the severe global coronavirus crisis. The crisis communication response in the post-crisis will be represented at the end.
 
 \vspace{12pt}
 \section{Course of investigation}
 \vspace{6pt}
-Based upon the research question postulated in chapter 1.1, the negative impacts of coronavirus on tourism industry will be described in chapter 2. Following the second chapter is the analyse of crisis communication strategies and tools of tourist organisations in term of dealing with the coronavirus outbreak. (The last chapter will describe the differences of crisis communication plans between Vietnam and The United States of America (USA) when facing coronavirus pandemic.)
+
+Based upon the research question postulated in section 1.1, the negative impacts of coronavirus on tourism industry will be described in the second section. Following this is the analyse of crisis communication strategies and tools of tourist organisations in term of responding to the coronavirus outbreak. In the last section we will sum up the main crisis communication strategies as well as its outcome and envisage the solutions of tourism organisations in the last stage of coronavirus crisis to improve the tourism industry situation.
 
 \vspace{12pt}
-\chapter{\phantom{o}Influences of coronavirus pandemic on tourism industry}
+\chapter{Influences of coronavirus pandemic on tourism industry}
+\vspace{6pt}
+\section{Economics crisis in tourism industry}
 \vspace{6pt}
 
+The COVID-19 outbreak has brought our world to a standstill with unparalleled and unforeseen impact in our lives, our economies, our societies and our livelihoods and there are growing risks of a global recession and a massive loss of jobs. Based on the latest developments (quarantine measures, travel bans \& border closures in most of Europe, which represents 50\% of international tourism, and in many countries of the Americas, Africa and the Middle East), the evolutions in Asia and the Pacific and the patterns of previous crises (2003 SARS and 2009 global economic crisis), UNWTO estimates international tourist arrivals could decline by 20\% to 30\% in 2020.  This would translate into a loss of 300 to 450 US\$ billion in international tourism receipts (exports) – almost one third of the US\$ 1.5 trillion generated globally in the worst-case scenario \cite{unwto}.
+
 \vspace{12pt}
-\chapter{\phantom{o}Crisis communication strategies of international tourism organisations}
+\chapter{Crisis communication strategies of international tourism organisations}
 \vspace{6pt}
 \section{Implemented crisis communication strategies}
 \vspace{6pt}
@@ -108,8 +134,25 @@ Based upon the research question postulated in chapter 1.1, the negative impacts
 \vspace{6pt}
 
 \vspace{12pt}
-\chapter{\phantom{o}Comparison crisis communication in Vietnam and in The United States of America in tourism industry}
+\chapter{Conclusion}
+\vspace{6pt}
+\section{Summary}
 \vspace{6pt}
 
-\printbibliography
+\vspace{12pt}
+\section{Critical acclaim}
+\vspace{6pt}
+
+\vspace{12pt}
+\section{Discussion}
+\vspace{6pt}
+
+%% \phantom{\cite{mauro_18AD},\cite{coombs_2019},\cite{glaesser_2006},\cite{hvass_2013},\cite{kerlin_nigel_2006},\cite{shaulova_biagi},\cite{serhan_2020}}
+%% \printbibliography[title={V. List of references}]
+\newpage
+\input{bibliography}
+\addcontentsline{toc}{chapter}{V. List of references}
+\newpage
+\input{declaration}
+\addcontentsline{toc}{chapter}{VI. Declaration of originality}
 \end{document}
