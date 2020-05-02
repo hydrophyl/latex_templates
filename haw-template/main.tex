@@ -12,7 +12,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[top=2.5cm,left=3cm,right=2cm,bottom=2cm]{geometry}
-\usepackage[parfill]{parskip} 
+\usepackage[parfill]{parskip}
 \usepackage{hyperref}
 \usepackage{glossaries} %% to do abbreviations
 %% From HAW-Template
@@ -23,7 +23,7 @@
 \pagestyle{fancy}
 \hypersetup{
   colorlinks=true,
-  linkcolor=black, 
+  linkcolor=black,
   filecolor=cyan,
   urlcolor=magenta,
   citecolor=red,
@@ -39,6 +39,9 @@
 \chapterfont{\normalsize}
 \sectionfont{\normalsize}
 \subsectionfont{\normalsize}
+
+%% to merge pdfpages
+\usepackage{pdfpages}
 
 %% to change space of headings to 0
 \usepackage{titlesec}
@@ -65,73 +68,115 @@
   	{V. List of references}
 }
 
-%% Generate the glossaries
-\makeglossaries
 \begin{document}
-\newglossaryentry{COVID}{name=COVID-19, description={Coronavirus disease 2019}}
-\newglossaryentry{who}{name=WHO, description={Word Health Organization}}
-\newglossaryentry{unwto}{name=UNWTO, description={World Tourism Organization}}
-\newglossaryentry{iata}{name=IATA, description={International Air Transport Association}}
-
 \frontmatter
 
-%% output title page
+%% output title page and abstractpage
+%% \includepdf[pages=-]{deckblatt.pdf}
 \input{titlepage}
-
+\newpage
 \input{abstractpage}
+
 \tableofcontents
 \addcontentsline{toc}{chapter}{I. OUTLINE}
+
+
 \listoffigures
 \addcontentsline{toc}{chapter}{II. List of figures}
 \listoftables
 \addcontentsline{toc}{chapter}{III. List of tables}
 
-%% Uncomment these lines to input manually list of abbreviations as IV from external file
-%% \newpage
-%% \input{abbreviationpage}
-%% \addcontentsline{toc}{chapter}{IV. List of abbreviations}
+\newpage
+\input{abbreviationpage}
+\addcontentsline{toc}{chapter}{IV. List of abbreviations}
+
+%% Begin document
 \mainmatter
+%% Chapter 1
 \chapter{Introduction}
 \vspace{6pt}
-\section{Research questions}
+\section{Research problem}
 \vspace{6pt}
+The actions of business enterprises have a significant effect on people’s entitlement of their human rights either positively or negatively. On one hand, enterprises can enhance their workers’ working performance by delivering innovative technologies and services in production process or increasing salary. On the other hand, companies may be involved with negative human rights issues, for instance discrimination, sexual harassment, health \& safety, freedom of association and to form unions, rape, torture, freedom of expression, privacy, poverty, food and water, education and housing. The United Nations Guiding Principles on Business and Human Rights (UNGPs)  which were adopted by consensus of the United Nations Human Rights Council (UNHRC) in June 2011 address this need and offer the first international reference framework and human rights in the context of business, clearly defining the duties and responsibilities of all players in three-pillar model known as the “Protect, Respect and Remedy” Framework including 31 principles. Although protecting human rights is the main duty of national governments, companies also have a responsibility to respect human rights and follow the national action plans in this field.
 
-Fusce sed finibus diam. Duis laoreet a ante at bibendum. Maecenas consequat dignissim maximus. Praesent porttitor cursus augue, ut blandit sem. Nunc malesuada id eros at imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse massa purus, pretium eu ultrices nec, mollis vitae risus. Proin et sem tempor, \gls{who} aliquam mauris lacinia, pretium justo. \gls{unwto} quisque non tortor eget libero congue maximus. Praesent in vestibulum felis. Nam dolor ex, blandit vel metus vel, convallis ullamcorper eros.
+National Action Plans (NAPs) were first developed in 2011 by the European Union, the Council of Europe, the Organisation of American States, the G7, the G20, national human rights institutions and business associations in order to support the implementation of the UN Guiding Principles on Business and Human Rights. The UN Working Group on business \& human rights encourages governments to adopt NAPs on business \& human rights as "an important means to promote the implementation of the UNGPs", specifically of the state duty to protect human rights. In 2019, over 50 countries have produced a national action plan or have been in the process of developing a NAP or have committed to developing one.
 
-Nullam ut eros at nibh suscipit suscipit a at arcu. Duis pretium dignissim velit ac mollis. Donec tincidunt neque at mi egestas, a lacinia ex aliquet. Vivamus in porta ipsum. Integer cursus lacus eget ligula tempus vulputate porttitor ac lectus. Suspendisse vitae \gls{who} sollicitudin risus, quis pharetra est. Nullam laoreet scelerisque neque vitae tristique. Nam consectetur lectus pulvinar orci accumsan rutrum. Phasellus sollicitudin pulvinar mi, tristique varius nisi iaculis id. Morbi in erat cursus, sagittis eros ut, iaculis augue. Aliquam erat volutpat. Fusce luctus sed dui in facilisis. Nulla congue justo et dui semper, in sagittis quam condimentum. Sed nec mauris non augue vulputate mollis sed congue massa.
+The implementation of UN Guiding Principles in business enterprises or in the state’s territory should be analysed to support the design of measures within a national action plan. This analyse comprises assessing to what extent businesses have committed to respecting human rights and carrying out human rights due diligence. The establishment of human rights due diligence process can help enterprises to reduce or counterbalance adverse impacts on human rights. In other word, implementing human rights due diligence is the responsibility of enterprises to manage adverse human rights impacts. This is also the main focus of UN Guiding Principles on Business and Human Rights with five out of 31 principles.
+
+\vspace{12pt}
+\section{Research method}\label{research_method}
+\vspace{6pt}
+This term paper aims to analyse steps of national action plans in the process of implementing the UN Guiding Principles on Business and Human Rights. The focus of this term paper will be on depicting the integration of human rights due diligence into policies and procedures in companies. The purpose  of this paper is to answer the following questions:
+
+\begin{itemize}
+\item{How are the UN guiding principles through national action plans implemented?}
+\item{How can human rights due diligence be integrated in enterprises?}
+\end{itemize}
 
 \vspace{12pt}
 \section{Course of investigation}
 \vspace{6pt}
+Based upon the research question postulated in section \ref{research_method}, the function and development of a national action plan will be described in the second chapter. In the third chapter, UN Guiding Principles on Business and Human and the implementation of the UN Guiding Principles in national action plans will be illustrated in the first and second sub-section respectively. The role of human rights due diligence in enterprises as well as in supporting the UN Guiding Principles will be presented in the fourth chapter. The conclusion will be placed at the end of the main body in this term paper.
 
-Quisque ornare mi ac mauris auctor placerat. \gls{COVID} nunc in risus ac urna elementum dapibus. Maecenas dignissim diam in tellus imperdiet hendrerit. In hac habitasse platea dictumst. Maecenas non sagittis purus. Nullam vulputate lectus dictum, ultricies tortor at, tempor mauris. Phasellus libero est, pharetra ut nulla eu, vestibulum venenatis nulla. Vivamus tristique orci et ante dictum, a placerat felis bibendum.
 
-Suspendisse nec aliquam metus. \gls{iata} maecenas varius imperdiet metus, ac finibus purus fringilla sed. Nullam et lacus lacus. Suspendisse ac finibus enim, eu convallis felis. Pellentesque vehicula dolor eleifend neque luctus, et lacinia justo pretium. Sed auctor vitae lorem in vehicula. Aliquam ac eleifend magna, auctor viverra mauris. Donec a quam arcu. Sed sagittis quam eros, et tempor tellus condimentum ac. Mauris fringilla euismod dui non eleifend. Curabitur dictum justo ac varius blandit. Aenean \gls{COVID} pulvinar nibh sed risus porta maximus.
 
+
+%% Chapter 2
 \vspace{12pt}
-\chapter{Influences of coronavirus pandemic on tourism industry}
+\chapter{National Action Plans}
 \vspace{6pt}
-\section{Economics crisis in tourism industry}
-\vspace{6pt}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales enim id magna consectetur, eu tincidunt nisl tempus. Donec ac neque vitae odio suscipit tristique. Donec consectetur, dui ut tincidunt efficitur, erat velit ornare tellus, id pulvinar tellus tellus quis dolor. Maecenas mi nulla, ultricies eget accumsan posuere, egestas nec urna. Pellentesque massa nunc, sodales sit amet dictum ac, dignissim et lorem. Morbi accumsan, nisi non fringilla ultricies, dolor lorem ultricies augue, sit amet dictum massa lectus nec sem. Sed at nisi ut erat imperdiet sagittis nec quis est. Suspendisse ultricies ut ipsum ac suscipit. Vivamus dignissim elit est, in dictum magna euismod et. Aliquam varius blandit elementum. Maecenas at dapibus justo. Suspendisse potenti. Donec finibus turpis nulla, nec pellentesque magna consequat sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed condimentum in libero vel congue. Aliquam lacinia orci ac diam egestas, id fringilla elit convallis \cite{lorem}.
-
-\vspace{12pt}
-\chapter{Dummy chapter}
-\vspace{6pt}
-\section{Implemented crisis communication strategies}
-\vspace{6pt}
-\subsection{Collaboration with worldwide organisations}
+\section{Value of national action plans on Business and Human Rights}
 \vspace{6pt}
 
 \vspace{12pt}
-\subsection{Crisis communication tools and channels}
+\section{Developing a national action plan }
+\vspace{6pt}
+
+
+
+
+
+
+% Chapter 3
+\vspace{12pt}
+\chapter{UN Guiding Principles on Business and Human Rights}
+\vspace{6pt}
+\section{The role of UN Guiding Principles on Business and Human Rights}
 \vspace{6pt}
 
 \vspace{12pt}
-\section{The impacts of crisis communication strategies on the spread of coronavirus pandemic}
+\section{Three-pillar Framework}
 \vspace{6pt}
 
+\vspace{12pt}
+\section{National Action Plans to implement UN Guiding Principles}
+\vspace{6pt}
+
+
+
+
+
+
+% Chapter 4
+\vspace{12pt}
+\chapter{Human rights due diligence}
+\vspace{6pt}
+\section{Human rights due diligence in UN Guiding Principle}
+\vspace{6pt}
+
+\vspace{12pt}
+\section{Integration of human rights due diligence }
+\vspace{6pt}
+
+
+
+
+
+
+
+
+
+% Chapter 5
 \vspace{12pt}
 \chapter{Conclusion}
 \vspace{6pt}
@@ -143,18 +188,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales enim id 
 \vspace{6pt}
 
 \vspace{12pt}
-\section{Discussion}
+\section{Outlook}
 \vspace{6pt}
 
-\printbibliography[title={V. List of references}]
-%% Umcomment these 4 lines to input \bibliography manually from other file
-%% \newpage
-%% \newpage
-%% \input{bibliography}
+
+
+
+
+
+%% Bibliography
+\newpage
+\input{bibliography}
 \addcontentsline{toc}{chapter}{V. List of references}
-\printglossary[type=\acronymtype,title={VI. List of Abbreviations}]
-\addcontentsline{toc}{chapter}{VI. List of abbreviations}
 \newpage
 \input{declaration}
-\addcontentsline{toc}{chapter}{VII. Declaration of originality}
+\addcontentsline{toc}{chapter}{VI. Declaration of originality}
 \end{document}
