@@ -6,15 +6,17 @@
               ,BCOR10mm
               ,DIV11
               ]{article}
-\usepackage[backend=biber,sorting=nty]{biblatex}
+\usepackage{csquotes}
+\usepackage[ngerman,british]{babel}
+\usepackage[backend=biber, style=apa, sorting=nty]{biblatex}
+\DeclareLanguageMapping{british}{british-apa}
 \addbibresource{citation.bib}
-\usepackage[ngerman,english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[top=2cm,left=2cm,right=2cm,bottom=2cm]{geometry}
 \usepackage[parfill]{parskip}
 \usepackage{hyperref}
-\usepackage{glossaries} %% to do abbreviations
+%% \usepackage{glossaries} %% to do abbreviations
 %% From HAW-Template
 \usepackage{setspace}
 \usepackage{listings}
@@ -24,7 +26,7 @@
   linkcolor=black,
   filecolor=cyan,
   urlcolor=magenta,
-  citecolor=red,
+  citecolor=black,
 }
 
 %% define colors in article
@@ -143,7 +145,7 @@ Suspendisse nec aliquam metus. maecenas varius imperdiet metus, ac finibus purus
 \section{Influences of coronavirus pandemic on tourism industry}
 \subsection{Economics crisis in tourism industry}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales enim id magna consectetur, eu tincidunt nisl tempus. Donec ac neque vitae odio suscipit tristique. Donec consectetur, dui ut tincidunt efficitur, erat velit ornare tellus, id pulvinar tellus tellus quis dolor. Maecenas mi nulla, ultricies eget accumsan posuere, egestas nec urna. Pellentesque massa nunc, sodales sit amet dictum ac, dignissim et lorem. Morbi accumsan, nisi non fringilla ultricies, dolor lorem ultricies augue, sit amet dictum massa lectus nec sem. Sed at nisi ut erat imperdiet sagittis nec quis est. Suspendisse ultricies ut ipsum ac suscipit. Vivamus dignissim elit est, in dictum magna euismod et. Aliquam varius blandit elementum. Maecenas at dapibus justo. Suspendisse potenti. Donec finibus turpis nulla, nec pellentesque magna consequat sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed condimentum in libero vel congue. Aliquam lacinia orci ac diam egestas, id fringilla elit convallis \cite{lorem}.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales enim id magna consectetur, eu tincidunt nisl tempus. Donec ac neque vitae odio suscipit tristique. Donec consectetur, dui ut tincidunt efficitur, erat velit ornare tellus, id pulvinar tellus tellus quis dolor. Maecenas mi nulla, ultricies eget accumsan posuere, egestas nec urna. Pellentesque massa nunc, sodales sit amet dictum ac, dignissim et lorem. Morbi accumsan, nisi non fringilla ultricies, dolor lorem ultricies augue, sit amet dictum massa lectus nec sem. Sed at nisi ut erat imperdiet sagittis nec quis est. Suspendisse ultricies ut ipsum ac suscipit. Vivamus dignissim elit est, in dictum magna euismod et. Aliquam varius blandit elementum. Maecenas at dapibus justo. Suspendisse potenti. Donec finibus turpis nulla, nec pellentesque magna consequat sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed condimentum in libero vel congue. Aliquam lacinia orci ac diam egestas, id fringilla elit convallis (\cite[p.~904]{ruggie_concept_2017}).
 
 %% printbibliography
 \printbibliography[title={List of references}]
@@ -152,8 +154,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales enim id 
 %% \newpage
 %% \newpage
 %% \input{bibliography}
-\printglossary[type=\acronymtype,title={List of Abbreviations}]
-\addcontentsline{toc}{section}{List of abbreviations}
+
+%% \printglossary[type=\acronymtype,title={List of Abbreviations}]
+%% \addcontentsline{toc}{section}{List of abbreviations}
 \newpage
 \input{declaration}
 \addcontentsline{toc}{section}{Declaration of originality}
